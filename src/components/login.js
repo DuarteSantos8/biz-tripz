@@ -1,4 +1,3 @@
-// src/components/Login.js
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
@@ -7,20 +6,23 @@ import './login.css';
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError('');
     try {
       const response = await axios.get(`http://localhost:3001/users?username=${username}&password=${password}`);
       if (response.data.length > 0) {
         localStorage.setItem('user', JSON.stringify(response.data[0]));
         navigate('/');
       } else {
-        alert('Invalid credentials');
+        setError('Invalid username or password');
       }
     } catch (error) {
       console.error('Login error:', error);
+      setError('An error occurred during login');
     }
   };
 
@@ -42,9 +44,10 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
+        {error && <p className="error-message">{error}</p>}
         <button type="submit">Login</button>
-        <Link to="/register" className="login-button">Dont have a account yet?</Link>
       </form>
+      <p>Don't have an account? <Link to="/register">Register here</Link></p>
     </div>
   );
 }

@@ -21,9 +21,10 @@ function Home() {
 
   return (
     <div className="home">
+      <h2>Available Trips</h2>
       <div className="grid">
         {trips.map(trip => (
-          <GridItem key={trip.id} id={trip.id} title={trip.title} image={trip.image || 'default.jpg'} />
+          <GridItem key={trip.id} {...trip} />
         ))}
       </div>
     </div>

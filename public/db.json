@@ -1,122 +1,110 @@
 {
-    "users": [
-      {
-        "id": "1",
-        "username": "testuser",
-        "password": "password123"
-      },
-      {
-        "id": "2951",
-        "username": "duarte",
-        "password": "123456"
-      }
-    ],
-    "trips": [
-      {
-        "id": "1",
-        "title": "Trip zur Golden Gate Bridge",
-        "description": "Besichtigung der berühmten Brücke in San Francisco",
-        "date": "2024-08-15",
-        "userId": 1
-      },
-      {
-        "id": "2",
-        "title": "Trip nach California",
-        "description": "Rundreise durch den Sunshine State",
-        "date": "2024-09-01",
-        "userId": 1
-      },
-      {
-        "id": "3",
-        "title": "Trip zum Yosemite Nationalpark",
-        "description": "Wanderung und Naturerlebnis im Yosemite Nationalpark",
-        "date": "2024-07-20",
-        "userId": 1
-      },
-      {
-        "id": "4",
-        "title": "Trip nach Los Angeles",
-        "description": "Besichtigung der Stadt der Engel",
-        "date": "2024-07-25",
-        "userId": 1
-      },
-      {
-        "id": "5",
-        "title": "Trip nach San Diego",
-        "description": "Erkundung der schönen Stadt San Diego",
-        "date": "2024-08-05",
-        "userId": 1
-      },
-      {
-        "id": "6",
-        "title": "Trip zum Disneyland",
-        "description": "Spaß und Abenteuer im Disneyland Resort",
-        "date": "2024-08-10",
-        "userId": 1
-      },
-      {
-        "id": "7",
-        "title": "Trip zur Napa Valley",
-        "description": "Weinprobe und Genuss in Napa Valley",
-        "date": "2024-08-20",
-        "userId": 1
-      },
-      {
-        "id": "8",
-        "title": "Trip nach Santa Barbara",
-        "description": "Erholung und Sightseeing in Santa Barbara",
-        "date": "2024-09-05",
-        "userId": 1
-      },
-      {
-        "id": "9",
-        "title": "Trip zum Death Valley",
-        "description": "Erkundung der Wüste im Death Valley Nationalpark",
-        "date": "2024-09-10",
-        "userId": 1
-      },
-      {
-        "id": "10",
-        "title": "Trip zum Sequoia Nationalpark",
-        "description": "Besichtigung der riesigen Mammutbäume",
-        "date": "2024-09-15",
-        "userId": 1
-      },
-      {
-        "id": "11",
-        "title": "Trip nach Lake Tahoe",
-        "description": "Naturerlebnis und Entspannung am Lake Tahoe",
-        "date": "2024-09-20",
-        "userId": 1
-      },
-      {
-        "id": "12",
-        "title": "Trip zur Hollywood",
-        "description": "Besichtigung der Hollywood Sehenswürdigkeiten",
-        "date": "2024-09-25",
-        "userId": 1
-      },
-      {
-        "id": "13",
-        "title": "Trip nach San Francisco",
-        "description": "Städtetour durch San Francisco",
-        "date": "2024-09-30",
-        "userId": 2951
-      },
-      {
-        "id": "14",
-        "title": "Trip nach Las Vegas",
-        "description": "Erkundung der Glücksspielstadt Las Vegas",
-        "date": "2024-10-05",
-        "userId": 2951
-      },
-      {
-        "id": "15",
-        "title": "Trip nach Grand Canyon",
-        "description": "Besichtigung des beeindruckenden Grand Canyon",
-        "date": "2024-10-10",
-        "userId": 2951
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "password": "securepass"
+    },
+    {
+      "id": "3",
+      "username": "bob_johnson",
+      "password": "bobpass123"
+    },
+    {
+      "id": "1720629577648",
+      "username": "duarte",
+      "password": "123456"
+    }
+  ],
+  "trips": [
+    {
+      "id": "1",
+      "title": "Silicon Valley Tech Tour",
+      "description": "Visit major tech companies in Silicon Valley",
+      "date": "2024-09-15",
+      "image": "silicon_valley.jpg"
+    },
+    {
+      "id": "2",
+      "title": "New York Finance Summit",
+      "description": "Attend finance conferences and networking events in NYC",
+      "date": "2024-10-05",
+      "image": "new_york.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Tokyo Innovation Expo",
+      "description": "Explore cutting-edge technology at Tokyo's annual innovation expo",
+      "date": "2024-11-20",
+      "image": "tokyo.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Berlin Startup Week",
+      "description": "Participate in workshops and pitches during Berlin's startup week",
+      "date": "2025-02-10",
+      "image": "berlin.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Dubai Business Forum",
+      "description": "Network with global business leaders at Dubai's annual forum",
+      "date": "2025-03-15",
+      "image": "dubai.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Sydney Tech Conference",
+      "description": "Attend Australia's largest tech conference in Sydney",
+      "date": "2025-04-22",
+      "image": "sydney.jpg"
+    }
+  ],
+  "userTrips": [
+    {
+      "id": "1",
+      "userId": "1",
+      "tripId": "1"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "tripId": "3"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "tripId": "2"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "tripId": "4"
+    },
+    {
+      "id": "5",
+      "userId": "3",
+      "tripId": "5"
+    },
+    {
+      "id": "c0e9",
+      "userId": "1",
+      "tripId": "1"
+    },
+    {
+      "id": "3844",
+      "userId": "1720629577648",
+      "tripId": "1"
+    },
+    {
+      "id": "ecf8",
+      "userId": "1720630480592",
+      "tripId": "1"
+    }
+  ]
+}

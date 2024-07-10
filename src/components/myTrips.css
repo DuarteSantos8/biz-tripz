@@ -1,0 +1,46 @@
+/* src/components/MyTrips.css */
+.my-trips {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .my-trips h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trip-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .trip-item h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .trip-item p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .trip-item .button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .trip-item .button:hover {
+    background-color: #218838;
+  }

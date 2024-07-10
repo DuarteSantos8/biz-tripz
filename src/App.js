@@ -5,6 +5,7 @@ import Home from './components/home';
 import Login from './components/login';
 import Register from './components/register';
 import TripDetails from './components/tripDetails';
+import MyTrips from './components/myTrips';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/trip/:id" element={<TripDetails />} />
+          <Route path="/my-trips" element={<MyTrips />} />
         </Routes>
       </div>
     </Router>
