@@ -19,6 +19,36 @@
       "id": "1720629577648",
       "username": "duarte",
       "password": "123456"
+    },
+    {
+      "id": "1720632760668",
+      "username": "aqa",
+      "password": "123"
+    },
+    {
+      "id": "1720676274554",
+      "username": "linus",
+      "password": "69"
+    },
+    {
+      "id": "1720677972260",
+      "username": "asa",
+      "password": "asa"
+    },
+    {
+      "id": "1720678727929",
+      "username": "dua",
+      "password": "dua"
+    },
+    {
+      "id": "1720678832864",
+      "username": "aaa",
+      "password": "aaa"
+    },
+    {
+      "id": "1720679199858",
+      "username": "sss",
+      "password": "sss"
     }
   ],
   "trips": [
@@ -67,24 +97,9 @@
   ],
   "userTrips": [
     {
-      "id": "1",
-      "userId": "1",
-      "tripId": "1"
-    },
-    {
-      "id": "2",
-      "userId": "1",
-      "tripId": "3"
-    },
-    {
       "id": "3",
       "userId": "2",
       "tripId": "2"
-    },
-    {
-      "id": "4",
-      "userId": "2",
-      "tripId": "4"
     },
     {
       "id": "5",
@@ -105,6 +120,91 @@
       "id": "ecf8",
       "userId": "1720630480592",
       "tripId": "1"
+    },
+    {
+      "id": "d3e4",
+      "userId": "1720632760668",
+      "tripId": "5"
+    },
+    {
+      "id": "ff91",
+      "userId": "1720676274554",
+      "tripId": "5"
+    },
+    {
+      "id": "e84e",
+      "userId": "1720676274554",
+      "tripId": "1"
+    },
+    {
+      "id": "e313",
+      "userId": "1720676274554",
+      "tripId": "2"
+    },
+    {
+      "id": "fdfa",
+      "userId": "1720676274554",
+      "tripId": "4"
+    },
+    {
+      "id": "8176",
+      "userId": "1720677972260",
+      "tripId": "2"
+    },
+    {
+      "id": "fe58",
+      "userId": "1720677972260",
+      "tripId": "5"
+    },
+    {
+      "id": "7def",
+      "userId": "1720677972260",
+      "tripId": "4"
+    },
+    {
+      "id": "3984",
+      "userId": "1720678727929",
+      "tripId": "1"
+    },
+    {
+      "id": "e538",
+      "userId": "1720678832864",
+      "tripId": "1"
+    },
+    {
+      "id": "0291",
+      "userId": "1720679199858",
+      "tripId": "1"
+    },
+    {
+      "id": "445e",
+      "userId": null,
+      "tripId": "3"
+    },
+    {
+      "id": "cb74",
+      "userId": null,
+      "tripId": "1"
+    },
+    {
+      "id": "57a9",
+      "userId": null,
+      "tripId": "2"
+    },
+    {
+      "id": "cec5",
+      "userId": null,
+      "tripId": "4"
+    },
+    {
+      "id": "5f5a",
+      "userId": null,
+      "tripId": "5"
+    },
+    {
+      "id": "d3d5",
+      "userId": null,
+      "tripId": "6"
     }
   ]
 }

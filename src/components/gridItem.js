@@ -12,7 +12,12 @@ function GridItem({ id, title, image, description, date }) {
     const checkIfBooked = async () => {
       if (user) {
         try {
-          const response = await axios.get(`http://localhost:3001/userTrips?userId=${user.id}&tripId=${id}`);
+          const response = await axios.get(`http://localhost:3001/userTrips`, {
+            params: {
+              userId: user.id,
+              tripId: id
+            }
+          });
           setIsBooked(response.data.length > 0);
         } catch (error) {
           console.error('Error checking if trip is booked:', error);

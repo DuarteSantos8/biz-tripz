@@ -1,49 +1,82 @@
-/* Header.css */
-.header {
-  background-color: #f8f9fa;
+/* home.css */
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.trip-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.trip-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.header-image {
+.trip-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.trip-item h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.trip-item p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.button-group {
+  margin-top: auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.header-title {
-  margin: 0;
-  color: #007bff;
-  font-size: 1.5rem;
-}
-
-nav {
-  display: flex;
-  gap: 1rem;
-}
-
-nav a, nav button {
-  text-decoration: none;
-  color: #333;
+.view-trip-button, .book-trip-button {
   padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover, nav button:hover {
-  background-color: #e9ecef;
-}
-
-.logout-button {
-  background: none;
   border: none;
-  cursor: pointer;
+  border-radius: 4px;
   font-size: 1rem;
-  color: #dc3545;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-align: center;
 }
 
-.logout-button:hover {
-  background-color: #f8d7da;
+.view-trip-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.view-trip-button:hover {
+  background-color: #27ae60;
+}
+
+.book-trip-button {
+  background-color: #f39c12;
+  color: white;
+}
+
+.book-trip-button:hover {
+  background-color: #d35400;
+}
+
+.booked-message {
+  color: #2ecc71;
+  font-weight: bold;
 }
